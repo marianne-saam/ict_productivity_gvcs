@@ -1,6 +1,6 @@
 This repository provides the data and code for clearing data, computing results, and plotting graphs in the paper Liu, Chuan, and Saam, Marianne (2021). ICT and Productivity Growth Within Value Chains. Review of Income and Wealth, Vol. 68, Issue 3, pp. 711-737. The code is implemented in Matlab and consists of 16 scripts. The master program runs all the other scripts to produce the results used to create the tables and figures in the paper.
 
-### Data Availability Statements:
+### Data availability statements:
 EUKLEMS data in the folder "data\euklems" provides the data for output, capital input, labor input, and corresponding price index. The data set consists of 32 industries for 30 countries. The Excel spreadsheets are indexed based on the country index, identical to the WIOD database.
 Data in the folder "data\wiod" provides the world input-output tables from 1995 to 2007 for 40 major economies and an aggregated virtual economy called Rest of Worlds. The folder "data/wiod/wiot_pyp" consists of the world input-output tables in the previous price.
 Data in the folder "data\wiod_sea" provides the extracted dataset from the Socio Economic Accounts of WIOD and Socio Economic Accounts source data "WIOD_SEA_Feb12".
@@ -15,7 +15,7 @@ The first section of the master program's code automatically sets the local work
 ### Software requirement:
 Matlab (code was run with Matlab Release 2020a)
 
-### Memory and Runtime Requirements:
+### Memory and runtime requirements:
 The code last ran on a 4-core Intel-8-gen-based laptop with 16 GB memory.
 
 ### Reference
